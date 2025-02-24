@@ -1,8 +1,6 @@
-# memory
-Object-oriented library for working with memory process memory
+#include <exception>
+#include <iostream>
 
-## Example
-```cpp
 #include "memory.hpp"
 
 int main() {
@@ -25,8 +23,3 @@ int main() {
 
   return 0;
 }
-```
-
-### Dependencies
-+ [CMake](https://cmake.org/)
-+ [MinGW (Linux)](https://www.mingw-w64.org/) (See [toolchain.cmake](./toolchain.cmake))
